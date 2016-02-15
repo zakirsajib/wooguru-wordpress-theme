@@ -6,16 +6,16 @@ This is project is about to clone of the existing website wooguru.net.
 Required plugins:
 
 Zopim<br/>
-Subscriptions & Recurring payment:
-https://www.woothemes.com/products/woocommerce-subscriptions/
+Subscriptions & Recurring payment:<br/>
+https://www.woothemes.com/products/woocommerce-subscriptions/<br/><br/>
 
-Typekit Account for Font 'freight-sans-pro'
+Typekit Account for Font 'freight-sans-pro'<br/><br/>
 
-Affiliation Manager:
-https://wpaffiliatemanager.com/
+Affiliation Manager:<br/>
+https://wpaffiliatemanager.com/<br/><br/>
 
-WooCommerce
-Need a paypal account.
+WooCommerce<br/>
+Need a paypal account.<br/><br/>
 
 Jetpack plugin
 
