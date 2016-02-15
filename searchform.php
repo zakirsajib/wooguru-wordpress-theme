@@ -1,0 +1,2 @@
+<form role="search" method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+<input type="text" value="" name="s" id="s" class="query" placeholder="Search the blog..." /> <i class="searchicon fa fa-circle-o"></i></form>

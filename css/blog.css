@@ -1,0 +1,407 @@
+
+.clearfix {
+    clear: both;
+}
+.push-30 {
+    margin-top: 30px;
+}
+mark, .mark {
+    background: #faf8f3 none repeat scroll 0 0;
+    border-radius: 4px;
+    display: block;
+    padding: 20px;
+}
+body, html {
+    font-family: "freight-text-pro",georgia,"times new roman",serif;
+}
+.container {
+    max-width: 1100px;
+}
+p, .postcontents ol, .postcontents ul, .alert, .shorttoggle {
+    color: #4d5155;
+    font-size: 22px !important;
+}
+.postcontents blockquote p {
+    padding-bottom: inherit;
+    padding-left: 0;
+    padding-top: inherit;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 18px;
+}
+.wp-caption p a, .wp-caption-text a {
+    font-size: 18px;
+}
+.comment p, .commentbody, .graybar, .comment-reply-link {
+    font-size: 18px;
+}
+.postcontents ol li, .postcontents ul li {
+    margin: 10px 0;
+}
+h1, h1 a, p, .postcontents ol li, .postcontents ul li, h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a {
+    -moz-osx-font-smoothing: grayscale;
+}
+h2, h2 a {
+    line-height: 42px;
+}
+.postcontents h1:hover {
+    color: inherit !important;
+}
+.postcontents > p:nth-of-type(1)::first-letter {
+    color: #54ade4;
+    display: block;
+    float: left;
+    font-family: "freight-sans-pro","helvetica neue",arial,sans-serif;
+    font-size: 80px !important;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 15px 20px 0 0;
+}
+.postcontents a {
+    font-size: 22px;
+}
+h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, .comment h5 a, #cancel-comment-reply-link, .largesolid, .widget li a, .graybar, #submit, .postlist article .info .date, .postlist article .info, .comment .commentinfo span, .author_widget h3, .author_widget h3 a, .comment-reply-link, #searchform #s, .notification, .widget h4, .author_widget .author_url, .smallrounded, .featureheader .info a, .postnav .postnavinfo .author, .postnav .postnavinfo .date, .alert, .shorttoggle, .inlinemenu a, a.bctt-ctt-btn, .bctt-ctt-text a {
+    font-family: "freight-sans-pro","helvetica neue",arial,sans-serif !important;
+}
+#searchform #s {
+    font-size: 16px;
+}
+.comment .commentinfo span {
+    color: #aeb8be;
+}
+.widget h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.postnav .postnavinfo a {
+    font-weight: 400;
+}
+.widget h4 {
+    color: #586367;
+}
+.author_widget .author_url {
+    font-weight: 400;
+}
+.smallrounded {
+    font-size: 16px;
+}
+#cancel-comment-reply-link, .largesolid, #submit {
+    font-size: 16px;
+}
+#submit {
+    background: #f67310 none repeat scroll 0 0;
+    font-weight: 500;
+}
+#submit:hover {
+    background: #e56031 none repeat scroll 0 0;
+}
+.graybar, .comment-reply-link, .widget h4, .smallrounded {
+    text-transform: none;
+}
+#cancel-comment-reply-link, .largesolid, .largeoutline, #searchform #s, #submit, .comment-reply-link, .smallrounded {
+    border-radius: 1000px;
+    text-transform: none;
+}
+.widget li a {
+    font-size: 16px;
+    font-weight: 400;
+}
+.postcontents > p:nth-of-type(1) {
+    color: #333333 !important;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 34px;
+}
+.author_widget p, .widget p {
+    font-size: 18px;
+    line-height: 26px;
+}
+.isauthor {
+    background: #78c51d none repeat scroll 0 0 !important;
+}
+.mainnav .menu a {
+    font-family: "freight-sans-pro","helvetica neue",arial,sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: none;
+}
+.subscription-box {
+    background: #b6e6fe none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #8c989d;
+    font-family: "freight-sans-pro","helvetica neue",arial,sans-serif;
+    font-size: 0.9rem;
+    padding: 20px;
+    position: relative;
+}
+.subscription-box::after {
+    background: rgba(0, 0, 0, 0) url("../images/newsletter-pattern.png") repeat-x scroll left top;
+    border-radius: 4px 4px 0 0;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.subscription-box h3 {
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.subscription-box input[type="text"] {
+    border-color: #c7d0d7;
+    border-radius: 10000px;
+    color: #8c989d;
+    font-family: "freight-sans-pro","helvetica neue",arial,sans-serif;
+    font-size: 1.25rem;
+    height: 45px;
+    margin-bottom: 5px;
+    padding: 0 10px 0 20px;
+}
+.subscription-box input[type="submit"] {
+    background: #f67310 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 10000px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "freight-sans-pro","helvetica neue",arial,sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    height: 45px;
+    margin-top: 5px;
+    padding: 0 15px;
+    width: 100%;
+}
+.subscription-box input[type="submit"]:focus {
+    outline: medium none;
+}
+.subscription-box input[type="submit"]:hover {
+    background: #e56031 none repeat scroll 0 0;
+}
+.download-form {
+    border: 1px solid #cad1d9;
+    border-radius: 4px;
+    font-family: "freight-sans-pro","helvetica neue",arial,sans-serif;
+    padding: 20px;
+}
+.download-form input[type="submit"] {
+    background: #54ade4 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 10000px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "freight-sans-pro","helvetica neue",arial,sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    height: 45px;
+    margin-top: 5px;
+    padding: 0 15px;
+    width: 100%;
+}
+.download-form input[type="submit"]:hover {
+    background: #2292d8 none repeat scroll 0 0;
+}
+.download-form .download-image, .download-form img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+}
+.download-form input[type="text"] {
+    border-color: #c7d0d7;
+    border-radius: 10000px;
+    color: #8c989d;
+    font-family: "freight-sans-pro","helvetica neue",arial,sans-serif;
+    font-size: 1.25rem;
+    height: 45px;
+    margin-bottom: 5px;
+    padding: 0 10px 0 20px;
+}
+.download-form .bodyText {
+    -moz-osx-font-smoothing: grayscale;
+    color: #55595d;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.previewLabel {
+    display: none;
+}
+
+#comments textarea#comment{
+	float: none;
+	width: 100%;
+	border: 1px solid #ebebeb;
+}
+
+#comments #author, 
+#comments #email, 
+#comments #url{
+	float: none;
+	width: 100%;
+}
+
+.mks_author_widget img{
+	float: none!important;
+	margin: 0 auto!important;
+	border-radius: 90px;
+}
+
+.mks_author_widget h3{
+	color: #2b2626;
+	font: 700 24px 'Montserrat',Arial,sans-serif;
+}
+
+
+
+@media only screen and (min-width: 53.125em) {
+.logo a {
+    background: rgba(0, 0, 0, 0) url("../images/logo-dark.svg") no-repeat scroll center 13px / 90px auto;
+    display: inline-block;
+    height: 30px;
+    margin: 0 50px 0 0;
+    opacity: 1;
+    padding: 0;
+    text-indent: -99999px;
+    width: 90px;
+}
+.mainnav.featured .logo a {
+    background: rgba(0, 0, 0, 0) url("../images/logo-white.svg") no-repeat scroll center 13px / 90px auto;
+}
+.featureheader .logo {
+    display: none;
+}
+.mainnav {
+    left: 50px;
+}
+.mainnav .toggle {
+    display: none;
+}
+.mainnav .menu a {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.current_page_item a {
+    border-bottom: 3px solid #54ade4;
+}
+.mainnav a {
+    color: rgba(88, 99, 103, 0.8);
+}
+.mainnav a:hover {
+    color: #586367;
+}
+.mainnav .menu li ul {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #d5dddf;
+    box-shadow: 1px 1px 25px -13px rgba(0, 0, 0, 0.7);
+    padding: 0;
+    top: 50px;
+    width: 200px;
+    z-index: 10000;
+}
+.mainnav .menu li ul li {
+    padding: 0;
+}
+.mainnav .menu li ul li a {
+    color: rgba(88, 99, 103, 0.8) !important;
+    font-size: 16px !important;
+    padding: 8px 20px;
+    text-align: left;
+    width: auto;
+}
+.mainnav .menu li ul.sub-menu li a:hover {
+    background: #edf1f2 none repeat scroll 0 0 !important;
+    color: #586367 !important;
+}
+.mainnav .menu li ul::before {
+    display: none;
+}
+.mainnav .menu i {
+    display: none;
+}
+.menu-item-has-children > a::after {
+    border-color: #586367 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 4px 4px 0;
+    content: "";
+    display: inline-block;
+    height: 0;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    opacity: 0.8;
+    width: 0;
+}
+.mainnav.featured .menu-item-has-children > a::after {
+    border-color: #ffffff rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) !important;
+}
+.menu-item-has-children > a:hover::after {
+    opacity: 1;
+}
+.sub-menu li:first-of-type a::before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ffffff;
+    border-image: none;
+    border-style: inset inset solid;
+    border-width: 6px;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 19px;
+    top: -12px;
+    width: 0;
+    z-index: 89;
+}
+}
+.info_widget a.logo img, .featureheader .logo img {
+    width: 90px;
+}
+.alert.blue a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.alert.blue a:hover {
+    text-decoration: none;
+}
+[data-sumome-share="sumome"], .sumome-control, #sumome-smartbar-popup img.sumome-icon, .sumome-smartbar-popup img.sumome-icon, .sumome-modal .sumome-smartbar-preview img.sumome-icon, .sumome-contactform-form, .sumome-popup .sumome-popup-content .sumome-popup-form, .sumome-popup-preview .sumome-popup-content .sumome-popup-form, .sumome-popup .sumome-popup-content .sumome-popup-form, .sumome-popup-preview .sumome-popup-content .sumome-popup-form, a[title~="SumoMe"] {
+    display: none !important;
+    height: 0 !important;
+    visibility: hidden !important;
+    width: 0 !important;
+}
+.sumome-scrollbox-popup {
+    border-radius: 4px 0 0 !important;
+    box-shadow: none !important;
+    font-family: "freight-sans-pro","helvetica neue",arial,sans-serif !important;
+}
+.sumome-scrollbox-popup button, .sumome-modal .sumome-scrollbox-preview button {
+    border-radius: 1000px !important;
+    font-family: "freight-sans-pro","helvetica neue",arial,sans-serif !important;
+    font-weight: 500 !important;
+}
+.sumome-scrollbox-input {
+    background: #ffffff none repeat scroll 0 0 !important;
+    border-radius: 1000px !important;
+    box-shadow: none !important;
+    font-size: 16px !important;
+}
+.sumome-welcomemat-action-link.sumome-welcomemat-image {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    display: none !important;
+    height: 0 !important;
+    visibility: hidden !important;
+}
+@media only screen and (min-width: 64.063em) {
+.sumome-welcomemat-background {
+    background: rgba(0, 0, 0, 0) url("http://test.zakirsajibonline.com/wp-content/uploads/2016/02/cover-book.png") no-repeat scroll left center !important;
+}
+}
+.sumome-welcomemat-button {
+    border-radius: 10000px !important;
+}
