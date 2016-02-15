@@ -5,7 +5,7 @@ This is project is about to clone of the existing website wooguru.net.
 
 Required plugins:
 
-Zopim
+Zopim<br/>
 Subscriptions & Recurring payment:
 https://www.woothemes.com/products/woocommerce-subscriptions/
 
